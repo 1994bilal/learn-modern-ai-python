@@ -46,3 +46,21 @@ if __name__ == '__main__':
 
 ## Solution
 
+user_input = int(input("Enter Your Number: "))
+def double(num):
+  result = num * 2
+  return result
+result = double(user_input)
+
+while result < 100:
+  print(f"Your result is {result}") 
+  result = double(result) 
+
+  output is :
+Enter Your Number: 2
+Your result is 4
+Your result is 8
+Your result is 16
+Your result is 32
+Your result is 64
+
